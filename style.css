@@ -4,51 +4,63 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .introduction__block {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .introduction__block_img {
   width: 100%;
 }
+
 .introduction__block {
   font-family: fantasy, cursive;
 }
+
 .introduction__block_link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .introduction__block { 
+  .introduction__block {
     text-align: center;
   }
 }
+
 .main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .main-page__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .main-page__add-task {
   display: flex;
   margin-top: 10px;
 }
+
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
+
 h3 {
-  list-style:none;
+  list-style: none;
 }
-input,button{
-  outline:none;
+
+input,
+button {
+  outline: none;
 }
+
 button {
   background: none;
   border: 0px;
@@ -58,9 +70,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 h3 {
   color: #333;
@@ -71,6 +85,7 @@ h3 {
   margin: 0;
   text-transform: uppercase;
 }
+
 .main-page__input {
   margin: 0;
   font-size: 18px;
@@ -84,6 +99,7 @@ h3 {
   color: #888;
   flex-grow: 1;
 }
+
 .main-page__input:focus {
   color: #333;
 }
@@ -102,9 +118,11 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+
 .main-page__checkbox {
   margin: 0 10px;
 }
+
 .main-page__label {
   width: 56%;
   display: inline-block;
@@ -114,24 +132,27 @@ li {
   font-size: 18px;
   width: 226px;
 }
-.main-page__delete-task-img{
+
+.main-page__delete-task-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .main-page__delete-task-img:hover {
   transform: rotateZ(0);
 }
 
 /* Edit Task */
 ul li input[type=text] {
-  display:none
+  display: none
 }
 
 .edit-task input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
+
 .edit-task label {
-  display:none;
+  display: none;
 }
